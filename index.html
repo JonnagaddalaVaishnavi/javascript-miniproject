@@ -19,5 +19,24 @@
                 <p class="text-sm text-gray-500 mt-1">Get real-time conditions by location.</p>
             </header>
 
+            
+            <!-- Search Form -->
+            <form id="weather-form" class="flex flex-col sm:flex-row gap-3">
+                <input
+                    type="text"
+                    id="city-input"
+                    placeholder="Enter city name (e.g., London)"
+                    class="flex-grow p-3 border border-gray-300 rounded-lg focus:ring-sky-500 focus:border-sky-500 transition duration-150"
+                    required
+                >
+                <button
+                    type="submit"
+                    class="bg-sky-600 hover:bg-sky-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-[1.01]"
+                >
+                    Search
+                </button>
+            </form>
+
+
   </body>
 </html>
